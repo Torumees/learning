@@ -24,9 +24,4 @@ rakenduse välja.
 
 Mida mina jätsin varasemalt tegemata: Ma jätsin kõik tegemata, hakkasin kohe koodi
 kirjutama, idee oli olemas aga ei teinud nii nagu peab, dokumenteerimise lasin teha
-<<<<<<< HEAD
 AI-l ning testid tegin lihtsalt käsitsi.
-=======
-AI-l ning testid tegin lihtsalt käsitsi. 
-TESTTESTTEST
->>>>>>> proov
