@@ -20,3 +20,8 @@ teine kes pole varasemalt koodi isegi näinud vaid loeb dokumentatsiooni saab ar
 ja mis moodi saab muuta rakendust.
 7. Juurutamine: Viimased väiksed parandused, kliendile ette näitamine ning võib lasta
 rakenduse välja.
+
+
+Mida mina jätsin varasemalt tegemata: Ma jätsin kõik tegemata, hakkasin kohe koodi
+kirjutama, idee oli olemas aga ei teinud nii nagu peab, dokumenteerimise lasin teha
+AI-l ning testid tegin lihtsalt käsitsi.
