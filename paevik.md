@@ -6,3 +6,4 @@ Formaat: kuupäev, mida tegin, mis jäi arusaamatuks, järgmine samm.
 - Tegin: kava paika, setup pooleli.
 - Arusaamatu: -
 - Järgmine: JDK 21 + GitHub konto, esimene commit.
+- ##TEST commiti jaoks
