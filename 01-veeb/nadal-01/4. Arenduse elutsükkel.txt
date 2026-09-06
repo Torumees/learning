@@ -1,0 +1,27 @@
+1. Idee: Kellegil tuleb idee teha rakendus, ta kirjutab kõik oma soovid ülesse
+ning hakkab otsima inimesi kes tal saab selle teoks teha.
+2. Analüüs: Vastav tiim pannakse kokku, et käia idee punktid läbi ning näha kas
+selles on vaja mingeid muudatusi teha, paremaid mõtteid, esimesed joonistatud
+prototüübid, kuupäevad jne.
+3. Disain: Kui analüüs tehtud teevad disainijad valmis prototüübi milline võiks
+välja näha rakendus ning esitlevad kliendile, kes ütleb kas sobib või ei sobi ning
+milliseid muudatusi peaks sisse tooma. Tehakse parandused.
+4. Arendus: Kui põhjalik analüüs tehtud, skeemid valmis, kõigile arusaadav hakkab
+peale arenduse osa kus igal arendajal on oma roll ning tehakse vastavalt Arendus
+meetodiga projekti (agiilne, sprint jne.). Vastavalt meedotile tehakse koosolekuid,
+kliendile demosid, disaijad teevad oma osa ning ollakse pidevad suhtluses
+omavahel.
+5. Testimis faasis käiakse läbi kõik võimalikuid vead mis rakenduses võivad esineda,
+olgu see lihtne visuaalne viga kuni reaalse turvaveani mis võib tekitada release
+faasis tõsiseid tagajärgi. Testid võiksid olla automatiseeritud kui ka käsitsi
+tehtavad.
+6. Dokumenteerimine: Selles faasis võiks dokumenteerida rakendust nii, et kui Keegi
+teine kes pole varasemalt koodi isegi näinud vaid loeb dokumentatsiooni saab aru kuidas
+ja mis moodi saab muuta rakendust.
+7. Juurutamine: Viimased väiksed parandused, kliendile ette näitamine ning võib lasta
+rakenduse välja.
+
+
+Mida mina jätsin varasemalt tegemata: Ma jätsin kõik tegemata, hakkasin kohe koodi
+kirjutama, idee oli olemas aga ei teinud nii nagu peab, dokumenteerimise lasin teha
+AI-l ning testid tegin lihtsalt käsitsi. TESTTESTTEST
