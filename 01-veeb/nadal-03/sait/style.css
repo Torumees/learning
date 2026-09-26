@@ -7,7 +7,7 @@ main {
     margin: 0 auto;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -25,20 +25,18 @@ main {
 .kaart {
     background-color: rgb(119, 117, 117);
     border: 2px solid black;
-    gap: 1rem;
+    padding: 1rem;
 }
 
 .contact {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
     border: 2px solid black;
 }
 
 @media (min-width: 700px) {
     .contact {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
+        grid-template-columns: max-content 1fr;
     }
 }
