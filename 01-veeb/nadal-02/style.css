@@ -1,0 +1,230 @@
+/* KOGU CSS ON SIIN SEES, ET VÄLTIDA LINKIMISE VIGU */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+/* Peamine CV ümbris */
+.cv-wrapper {
+    background-color: #111827; /* Tumesinine/must taust */
+    width: 100%;
+    max-width: 960px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* Päise ala */
+.cv-header {
+    background-color: #0f172a; /* Veidi tumedam päis */
+    padding: 40px;
+    border-bottom: 1px solid #1f2937;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    color: #9ca3af;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.social-icons a:hover {
+    color: #ffffff;
+}
+.hire-btn {
+    background-color: #f43f5e; /* Punane nupp */
+    color: #ffffff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Profiili sektsioon */
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.img-container {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #1f2937;
+    background-color: #1f2937;
+}
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-section h1 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.profile-section .subtitle {
+    color: #9ca3af;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Kontaktriba */
+.contact-bar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-top: 1px solid #1f2937;
+    padding-top: 25px;
+    font-size: 13px;
+    color: #9ca3af;
+    flex-wrap: wrap;
+}
+.contact-bar span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* Kaheveerguline sisu */
+.cv-body {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr; /* Vasak pool laiem, parem kitsam */
+    gap: 40px;
+    padding: 40px;
+}
+.cv-section {
+    margin-bottom: 35px;
+}
+.section-title {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    border-bottom: 1px solid #1f2937;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+.section-title i {
+    color: #9ca3af;
+}
+.about-text {
+    color: #9ca3af;
+    font-size: 13.5px;
+    line-height: 1.7;
+}
+/* Töökogemus */
+.timeline-item {
+    margin-bottom: 20px;
+}
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+.timeline-header .date i {
+    color: #f43f5e;
+    font-size: 8px;
+    vertical-align: middle;
+}
+.job-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.job-desc {
+    padding-left: 20px;
+}
+.job-desc li {
+    color: #9ca3af;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+/* Oskuste ribad (Tech Stack) */
+.skill-row {
+    margin-bottom: 18px;
+}
+.skill-name {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.bar-bg {
+    background-color: #1f2937;
+    height: 6px;
+    border-radius: 10px;
+    width: 100%;
+}
+.bar-fill {
+    background-color: #38bdf8; /* Helesinine täide */
+    height: 100%;
+    border-radius: 10px;
+}
+/* Pehmed oskused (Soft Skills) */
+.skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.badge {
+    background-color: #1f2937;
+    color: #9ca3af;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+/* Projektid */
+.projects-list {
+    padding-left: 20px;
+    color: #9ca3af;
+    font-size: 13px;
+}
+.projects-list li {
+    line-height: 1.6;
+}
+.projects-list strong {
+    color: #ffffff;
+}
+/* Mobiilivaade */
+@media (max-width: 768px) {
+    .cv-body {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+    .contact-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .header-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
