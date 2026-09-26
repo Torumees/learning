@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,19 @@
 <body>
     <header>
         <h1>Egert Tooming</h1>
-        <p>Minu cv harjutamiseks</p>
     </header>
     <main>
-        <section class="section">
+
+        <div>
+        <section>
             <h2>Töökogemus</h2>
             <h3>COOP</h3>
             <p>05.05.2023 Komplekteerija</p>
         </section>
+        </div>  
 
-        <section class="section">
+        <div>
+        <section>
             <h2>Oskused</h2>
             <ul>
                 <li>HTML</li>
@@ -28,24 +31,30 @@
                 <li>JS</li>
             </ul>
         </section>
+        </div>
 
-        <section class="section">
+        <div>
+        <section>
             <h2>Haridus</h2>
             <h3>Tallinna Tööstushariduskeskus</h3>
             <p>01.09.2020-21.06.2023</p>
         </section>
+        </div>
 
-        <section class="section">
+        <div>
+        <section>
             <form>
-                <label for="form-name">Nimi:</label><br>
+                <h2>Kontakt</h2>
+                <label for="form-name">Nimi:</label>
                 <input type="text" name="form-name" id="form-name">
-                <label for="form-epost">e-post</label><br>
-                <input type="text" name="form-epost" id="form-epost">
-                <label for="form-message">Sõnum:</label><br>
-                <input type="text" name="form-message" id="form-message">
+                <label for="form-epost">e-post</label>
+                <input type="email" name="form-epost" id="form-epost">
+                <label for="form-message">Sõnum:</label>
+                <textarea name="message" id="form-message" rows="5"></textarea>
                 <input type="submit" value="Submit">
             </form>
         </section>
+        </div>
     </main>
     <footer>2026 Egert Tooming</footer>
 </body>

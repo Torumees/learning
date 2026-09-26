@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aktiivne{
+    color: red;
+}
+
+.kaardid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.kaart {
+    background-color: rgb(119, 117, 117);
+    border: 2px solid black;
+    gap: 1rem;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    border: 2px solid black;
+}
+
+@media (min-width: 700px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}

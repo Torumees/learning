@@ -1,45 +1,36 @@
 :root {
-    --var-tekst: white;
+    --varv-tekst: white;
     --varv-taust: black;
     --varv-rohutus: gray;
     --samm: 1rem;
 }
 
-html {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--varv-tekst);
     background-color: var(--varv-taust);
 }
 
-h1 {
-    color: var(--var-tekst);
-}
-
-h2 {
-    color: var(--var-tekst);
-}
-
-h3 {
-    color: var(--var-tekst);
+main {
+    max-width: 65ch;
+    margin: 0 auto;
 }
 
 p {
-    color: var(--varv-rohutus)
+    color: var(--varv-rohutus);
 }
 
-li{
-    color: var(--var-tekst)
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
-section {
-    width: 200px;
-    padding: 20px;
-    border: 2px solid red;
-    background-color: rgb(102, 101, 101);
-}
-
-footer {
-    background-color: aliceblue;
-}
-
-main {
-    max-width: 50%;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--samm);
+    max-width: 400px;
 }
