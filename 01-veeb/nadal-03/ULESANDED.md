@@ -1,7 +1,7 @@
 # Nädal 3 — CSS layout, grid ja responsive (~12 h)
 
 **Materjal:** [OPPETUND.md](OPPETUND.md) — kõik teemad lahti seletatud.
-**Otsitav käsiraamat:** https://claude.ai/code/artifact/2bee9315-6ff4-414c-b5d7-e4c15e807345
+**Otsitav käsiraamat:** https://claude.ai/artifact/6ReNXRMfYGeLeqfccDwNix
 
 Nädala jagu tööd kolmes osas: **A** parandad CV ära (1 h), **B** teed seitse katset,
 et näha oma silmaga, kuidas asjad käituvad (4 h), **C** ehitad kolmelehelise saidi (6 h).

@@ -11,3 +11,6 @@ Formaat: kuupäev, mida tegin, mis jäi arusaamatuks, järgmine samm.
 - Add: Võtab kõik muudetud read ja paneb need nii öelda valmis commiti jaoks.
 - commit: salvestab need lokaalselt
 - push: laeb need serverisse
+
+## 2026-10-04
+- True, False erinevused Pythonist
