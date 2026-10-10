@@ -14,3 +14,6 @@ Formaat: kuupäev, mida tegin, mis jäi arusaamatuks, järgmine samm.
 
 ## 2026-10-04
 - True, False erinevused Pythonist
+
+## 2026-10-10
+- filter teeb uue massiivi näiteks kui tahad kustutada midagi, find aga otsib massiivist objekti ja muduab selle sisu.

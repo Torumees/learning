@@ -1,0 +1,27 @@
+:root {
+    --text-color: rgb(2, 10, 10);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    max-width: 32rem;
+    margin: 0 auto;
+    background-color: rgb(161, 153, 138);
+}
+
+p {
+    color: var(--text-color);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+form button {
+    margin-left: auto; 
+}
